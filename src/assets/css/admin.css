@@ -1,0 +1,16 @@
+.tableroot {
+    width: 95%;
+    margin: auto;
+}
+.tableWrapper {
+    max-height: 637;
+    overflow: auto;
+}
+.formgroupD {
+    padding: 10px;
+}
+.inputtxtD {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+}

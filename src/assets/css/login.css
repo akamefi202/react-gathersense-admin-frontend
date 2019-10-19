@@ -1,0 +1,110 @@
+.loginLeft {
+    width: 720px;
+    height: 100%;
+    position: fixed;
+    z-index: 1300;
+    left: 0px;
+    top: 0px;
+    background-image: url("../images/login.png")
+}
+@media screen and (max-width: 800px) {
+    .loginLeft {
+        width: 720px;
+        height: 100%;
+        position: fixed;
+        z-index: 1300;
+        left: 0px;
+        top: 0px;
+        background-image: url("../images/login.png");
+        transform: translate(-720px, 0px); 
+    }
+}
+.loginRight {
+    color: #fff;
+    padding-left: 720px;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+}
+@media screen and (max-width: 800px) {
+    .loginRight {
+        color: #fff;
+        padding-left: 0px;
+        display: table;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+.loginLeftBack {
+    background-color: rgba(255, 71, 91, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.loginlogoimg {    
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+.logindiv {
+    display: table-cell;
+    vertical-align: middle;
+}
+.loginCard {
+    width: 494px;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+}
+.logintitle {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+.logintitletxt {
+    font-size: 16px;
+    line-height: 156.6%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+
+    color: #979797;
+}
+.formlogin {
+    padding: 10px;
+}
+.logintxt {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+}
+.loginbnt {
+    background-color: rgb(255, 71, 91);
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 10px;
+    padding: 10px 30px;
+}
+.bottomcard {    
+    background: #F7F7F7;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 0px 0px 8px 8px;
+}
+.bottomlabel {
+    font-size: 12px;
+    align-items: center;
+    color: #8D8D8D;
+}
+.bottomlabelred {
+    font-size: 12px;
+    align-items: center;
+    color: #FF475B;
+}

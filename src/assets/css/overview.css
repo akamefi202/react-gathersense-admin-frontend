@@ -1,0 +1,115 @@
+.card {
+    min-width: 215px;
+    /* width: 219px; */
+    width: 95%;
+    height: 219px;
+}
+.title {
+    font-size: 14px;
+}
+.pos {
+    margin-bottom: 12px,
+}
+.rounded-circle1{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 159, 250, 0.05);
+    align-items: center;
+    text-align: center;
+}
+.rounded-circle2{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 177, 135, 0.05);
+    align-items: center;
+    text-align: center;
+}
+.rounded-circle3{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(255, 71, 91, 0.06);
+    align-items: center;
+    text-align: center;
+}
+.rounded-circle4{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(127, 60, 238, 0.05);
+    align-items: center;
+    text-align: center;
+
+}
+
+.rounded-circleimg{
+    margin-left: 45px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.root {
+    flex-grow: 1;
+    display: flex;
+}
+.h2txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    /* identical to box height, or 72px */
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+}
+.h3txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 32px */
+    align-items: center;
+    text-align: center;
+    color: #979797;
+}
+.middletxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 156.6%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #0F1B33;
+    padding: 10px;
+}
+.formgroupO {
+    padding: 10px;
+}
+.inputtxtO {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+}
+.clickClink  {
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+}
+.clickClink:hover {
+    color: red;
+}
+.dot3 {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
